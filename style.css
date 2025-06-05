@@ -1,0 +1,17 @@
+body {
+    font-family: Arial;
+    margin: 10px;
+}
+#user-container {
+    background-color: rgb(219, 241, 249);
+    margin-bottom: 10px;
+}
+div {
+    border: 1px solid #ed6060;
+    padding: 10px;
+    margin: 10px ;
+    border-width: 10px;
+}
+h3 {
+    margin: 10;
+}
