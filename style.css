@@ -7,10 +7,10 @@ body {
     margin-bottom: 10px;
 }
 div {
-    border: 1px solid #ed6060;
+    border: 1px solid #110101;
     padding: 10px;
-    margin: 10px ;
-    border-width: 10px;
+    
+    border-width: 5px;
 }
 h3 {
     margin: 10;
