@@ -15,7 +15,6 @@ const fetchUserData = async () => {
         userContainer.innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
     }
 };
-
 const displayUsers = (users) => {
     userContainer.innerHTML = ''; 
     users.forEach(user => {
@@ -28,5 +27,5 @@ const displayUsers = (users) => {
         userContainer.appendChild(userDiv);
     });
 };
-
+fetchUserData();
 reloadButton.addEventListener('click', fetchUserData);
