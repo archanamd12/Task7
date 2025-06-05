@@ -29,7 +29,4 @@ const displayUsers = (users) => {
     });
 };
 
-
-fetchUserData();
-
 reloadButton.addEventListener('click', fetchUserData);
